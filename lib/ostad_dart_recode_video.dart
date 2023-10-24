@@ -3,3 +3,4 @@ class Cal {
     return 6 * 8;
   }
 }
+// this is calculator function
