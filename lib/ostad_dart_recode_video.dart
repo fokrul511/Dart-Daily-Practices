@@ -1,6 +1,6 @@
 class Cal {
   static int calculate() {
-    return 6 * 8;
+    return 6 * 10;
   }
 }
 // this is calculator function
