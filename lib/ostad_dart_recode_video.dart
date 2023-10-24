@@ -1,3 +1,5 @@
-int calculate() {
-  return 6 * 7;
+class Cal {
+  static int calculate() {
+    return 6 * 8;
+  }
 }

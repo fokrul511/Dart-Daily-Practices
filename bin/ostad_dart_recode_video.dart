@@ -1,5 +1,5 @@
-import 'package:ostad_dart_recode_video/ostad_dart_recode_video.dart' as ostad_dart_recode_video;
+import 'package:ostad_dart_recode_video/ostad_dart_recode_video.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${ostad_dart_recode_video.calculate()}!');
+void main() {
+  print('hello world:${Cal.calculate()}}');
 }
