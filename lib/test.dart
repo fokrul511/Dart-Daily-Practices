@@ -1,6 +1,14 @@
-void main(){
+void main() {
+  print(Factorial.factorialCount(6));
+}
 
-var m = false;
- int val = 5;
-print(m==true?'this is bool':5<50?'you are passed':'you are faill');
+class Factorial {
+  static factorialCount(number) {
+    if (number <= 0) {
+      return 1;
+    } else {
+      return (number * factorialCount(number - 1));
+    }
+  }
+
 }
