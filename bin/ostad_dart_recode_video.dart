@@ -1,5 +1,10 @@
-import 'package:ostad_dart_recode_video/ostad_dart_recode_video.dart';
+
 
 void main() {
-  print('hello world:${Cal.twoaddion(20, 40)}');
+  print('hello world:${Cal.calculator(1, 20)}');
+}
+class Cal{
+ static calculator(int a,b){
+    return a+b;
+  }
 }
