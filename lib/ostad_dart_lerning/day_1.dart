@@ -1,6 +1,7 @@
 void main() {
   BasicDart.datatype();
   BasicDart.operator();
+  BasicDart.HelloDart();
 }
 
 //datatype....
@@ -42,4 +43,11 @@ class BasicDart {
     int sub = a - b;
     print('sub :$sub');
   }
+  //hello dart............
+static HelloDart(){
+
+    print('##################################');
+    print('hello dart............');
+    print('Hello Dart');
+}
 }
