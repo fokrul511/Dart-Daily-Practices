@@ -41,8 +41,16 @@ void main() {
   //while loops
   int number =1;
   int value = 5;
-  while(number<=value){
-    print(number);
-    number++;
-  }
+  // while(number<=value){
+  //   print(number);
+  //   number++;
+  // }
+
+  //do while.................................................
+do{
+  print(number);
+  number++;
+
+}  while(number<=value);
+
 }
