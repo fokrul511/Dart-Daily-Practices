@@ -30,13 +30,19 @@ void main() {
   //   print(element);
   // }
   //forEach.....
-  var mymaps = [
-    {
-      1: 'Fokrul',
-      2: 'sadiya',
-    }
-  ];
+  // var mymaps = [
+  //   {
+  //     1: 'Fokrul',
+  //     2: 'sadiya',
+  //   }
+  // ];
+  // mymaps.forEach((element) {print(element[2]);});
 
-
-  mymaps.forEach((element) {print(element[2]);});
+  //while loops
+  int number =1;
+  int value = 5;
+  while(number<=value){
+    print(number);
+    number++;
+  }
 }
