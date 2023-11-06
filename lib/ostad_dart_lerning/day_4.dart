@@ -1,16 +1,16 @@
 void main() {
   //? to day class topic is if,else, else if,
-  print('day 4');
-  print('Module 2');
+  // print('day 4');
+  // print('Module 2');
 
   // final / run time constant
-  final String hi;
-  hi = 'Fokrul';
-  print(hi);
+  // final String hi;
+  // hi = 'Fokrul';
+  // print(hi);
 
 //Const
-  const int hello = 10;
-  print(hello);
+  // const int hello = 10;
+  // print(hello);
 
   //
 
@@ -26,7 +26,10 @@ void main() {
   int num_1 = 50;
   int num_2 = 100;
 
-  if (num_1 == num_2) {
-    print('two number is equals');
-  }
+  print(num_1 > num_2);
+  print(num_1 < num_2);
+  print(num_1 >= num_2);
+  print(num_1 <= num_2);
+  print(num_1 == num_2);
+  print(num_1 != num_2);
 }
