@@ -5,6 +5,10 @@ void main() {
   Student student1 = Student('sdsd', 54664, 'dfdsfdsfsdf');
   print(student1.hello(
       'Fokrul')); // instance another method under class call main function and print
+  String str = 'hello this is ostad batch 5';
+  var item = str.split('hello');
+  print(item.runtimeType);
+  print(item);
 }
 
 class Student {
