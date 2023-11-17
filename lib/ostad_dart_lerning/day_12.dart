@@ -2,19 +2,19 @@ void main() {
   //!day 12
   // today introduce Inheritance
   print('day 12');
-  Student student1 = Student();
-  student1.name = 'Fokrul';
-  print(student1.name);
-  student1.roll = 476639;
-  print(student1.roll);
-  student1.address = 'Moulvibazar';
-  print(student1.address);
-
+  Student student1 = Student('Fokrul', 444, 'gfgklk');
+  print(student1);
   //
 }
 
 class Student {
-  String name = '';
-  int roll = 000000;
-  String address = '';
+  // String name = '';
+  // int roll = 000000;
+  // String address = '';
+  String? name;
+  String? address;
+
+  int? roll;
+
+  Student(this.name, this.roll, this.address);
 }
