@@ -1,5 +1,5 @@
 void main() {
-  var list;
+  dynamic list;
   var list2 = [
     0,
     'Fokrul',
@@ -13,8 +13,8 @@ void main() {
   print(list2[2]);
   print(list2[3]);
   print(list2.runtimeType);
-list2.add('Samiama');
-list2[0]='Rahima';
+  list2.add('Samiama');
+  list2[0] = 'Rahima';
   print(list2);
 }
 
