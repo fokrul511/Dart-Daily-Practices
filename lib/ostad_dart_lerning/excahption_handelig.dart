@@ -3,9 +3,16 @@ void main() {
   try {
     errorThrow();
   } catch (e) {
-    print(e);
+    // print(e);
+    //todo
+  } finally {
+    print('code from finally');
   }
 
+  print('two');
+  print('two');
+  print('two');
+  print('two');
   print('two');
 }
 
